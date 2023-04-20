@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{83E923AE-2EDB-4567-B05C-C7C20CE39454}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PATTERNS", "PATTERNS", "{3726D27D-346B-4E81-98DA-D11AB9F35989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{83E923AE-2EDB-4567-B05C-C7C20CE39454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83E923AE-2EDB-4567-B05C-C7C20CE39454}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83E923AE-2EDB-4567-B05C-C7C20CE39454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{6DE6B710-BA1B-49A6-9ED4-675296B77F5D} = {57B14E23-47B5-42D9-8D02-F0820427C0E1}
 		{E3BE9F39-2494-4160-945C-C8294384B7E6} = {57B14E23-47B5-42D9-8D02-F0820427C0E1}
 		{83E923AE-2EDB-4567-B05C-C7C20CE39454} = {57B14E23-47B5-42D9-8D02-F0820427C0E1}
+		{C3F2D0E4-11B6-4D72-9C64-6F9B1B32A0BB} = {3726D27D-346B-4E81-98DA-D11AB9F35989}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60AAB8AF-62F3-4823-98E1-D0A6F11C3FAC}
