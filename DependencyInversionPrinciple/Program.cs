@@ -12,6 +12,8 @@ namespace DependencyInversionPrinciple
         Sibling
     }
 
+    
+
     public class Person
     {
         public string Name;
